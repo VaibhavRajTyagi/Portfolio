@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "JetBrains Mono", sans-serif;
+}
+
+body{
+  background-color: #000000;
+}
+
+
+*::selection{
+  background-color: white;
+  color: black;
+}
+
+.navItems:hover{
+  color: #7b7a7a;
+  cursor: pointer;
+}
