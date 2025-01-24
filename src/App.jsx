@@ -1,4 +1,4 @@
-import "./App.css";
+
 import Nav from "./components/navbar";
 import Contact from "./components/contact";
 
