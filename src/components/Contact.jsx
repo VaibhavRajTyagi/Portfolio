@@ -1,6 +1,6 @@
 const Contact = () => {
   const hoverColor = () => {
-    return 'hover:text-blue-600';
+    return 'hover:text-green-500';
   };
 
   return (

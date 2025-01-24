@@ -1,6 +1,6 @@
 import "./App.css";
-import Nav from "./components/Nav";
-import Contact from "./components/Contact";
+import Nav from "./components/navbar";
+import Contact from "./components/contact";
 
 function App() {
   return (
@@ -10,7 +10,8 @@ function App() {
         <div className="landingDiv flex-grow h-full bg-black text-white flex justify-center items-center gap-24 m-4">
           <div className="TextDiv flex flex-col justify-center items-center">
             <h1 className="text-4xl font-bold">
-              Hello, I&apos;m <h1 className="text-blue-600">Vaibhav Raj Tyagi</h1>
+              Hello, I&apos;m{" "}
+              <span className="text-green-500">Vaibhav Raj Tyagi</span>.
             </h1>
             <p className="text-lg">I&apos;m a Full Stack Developer.</p>
           </div>
