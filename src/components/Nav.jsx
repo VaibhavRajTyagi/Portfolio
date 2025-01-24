@@ -13,17 +13,16 @@ const Nav = () => {
   };
 
   return (
-    <div className="flex justify-center items-center gap-24 opacity-95 bg-black text-white p-2 fixed top-0 left-0 right-0 z-10">
+    <div className="flex justify-center items-center gap-24 opacity-95 bg-black text-white pt-8 fixed top-0 left-0 right-0 z-10">
       <NavLink to="/" className={navLinkStyles}>
         Home
       </NavLink>
-      <NavLink to="/projects" className={navLinkStyles}>
+      <NavLink to="/Projects" className={navLinkStyles}>
         Projects
       </NavLink>
-      <NavLink to="/contact" className={navLinkStyles}>
+      <NavLink to="/Contact" className={navLinkStyles}>
         Contact
       </NavLink>
-      
     </div>
   );
 };
