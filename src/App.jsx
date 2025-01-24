@@ -1,6 +1,6 @@
 import profileImage from "./assets/IMG_9996.png";
-import Nav from "./components/navbar";
-import Contact from "./components/contact";
+import Nav from "./components/Nav";
+import Contact from "./components/Contact";
 
 function App() {
   return (
