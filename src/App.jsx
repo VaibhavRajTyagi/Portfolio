@@ -1,6 +1,6 @@
 import "./App.css";
 import Nav from "./components/Nav";
-import Contact from "./components/contact";
+import Contact from "./components/Contact";
 
 function App() {
   return (
