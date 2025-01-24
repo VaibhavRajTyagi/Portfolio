@@ -1,6 +1,6 @@
-
-import Nav from "./components/navbar.jsx";
-import Contact from "./components/contact.jsx";
+import profileImage from "./assets/IMG_9996.png";
+import Nav from "./components/navbar";
+import Contact from "./components/contact";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
           <div className="ImageDiv border-4 border-dotted border-white overflow-hidden object-cover w-80 h-80 rounded-full">
             <img
               className="bg-[#141313]"
-              src="src\\assets\\IMG_9996.png"
+              src={profileImage}
               alt="PFP"
             />
           </div>
