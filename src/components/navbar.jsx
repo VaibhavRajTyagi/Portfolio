@@ -17,10 +17,10 @@ const Nav = () => {
       <NavLink to="/" className={navLinkStyles}>
         Home
       </NavLink>
-      <NavLink to="/Projects" className={navLinkStyles}>
+      <NavLink to="/projects" className={navLinkStyles}>
         Projects
       </NavLink>
-      <NavLink to="/Contact" className={navLinkStyles}>
+      <NavLink to="/contact" className={navLinkStyles}>
         Contact
       </NavLink>
       

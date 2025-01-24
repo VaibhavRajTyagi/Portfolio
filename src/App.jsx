@@ -1,6 +1,6 @@
 
-import Nav from "./components/navbar";
-import Contact from "./components/contact";
+import Nav from "./components/navbar.jsx";
+import Contact from "./components/contact.jsx";
 
 function App() {
   return (
