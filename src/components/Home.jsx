@@ -7,7 +7,7 @@ const Home = () => {
         <div className="TextDiv flex flex-col justify-center items-center">
           <h1 className="text-4xl font-bold">
             Hello, I&apos;m{" "}
-            <span className="text-green-500">Vaibhav Raj Tyagi</span>.
+            <span className="text-blue-500">Vaibhav Raj Tyagi</span>.
           </h1>
           <p className="text-lg">I&apos;m a Full Stack Developer.</p>
         </div>
