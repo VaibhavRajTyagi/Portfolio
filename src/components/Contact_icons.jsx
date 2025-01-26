@@ -22,7 +22,7 @@ const Contact_icons = () => {
             </button>
             <button
                 onClick={() =>
-                    window.open("https://twitter.com/your-profile", "_blank")
+                    window.open("https://mail.google.com", "_blank")
                 }
             >
                 <FontAwesomeIcon icon={faGoogle} className={iconStyles} />
