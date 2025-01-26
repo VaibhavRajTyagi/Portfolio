@@ -1,24 +1,44 @@
-import { NavLink } from "react-router";
+import { Link } from "react-scroll";
 
 const Nav = () => {
-  const navLinkStyles = ({ isActive }) => {
-    return `
-          ${isActive ? "text-white" : "text-slate-500"}
-          font-[Inter]
-        `;
-  };
+  const linkStyles = "cursor-pointer text-sm md:text-base text-gray-400 hover:text-white transition-colors duration-300";
+  const activeLinkStyles = "text-white";
 
   return (
-    <div className="flex justify-center items-center gap-24 opacity-95 bg-black text-white py-6 fixed top-0 left-0 right-0 z-10">
-      <NavLink to="/" className={navLinkStyles}>
+    <div className="flex justify-center items-center gap-8 md:gap-24 opacity-95 bg-black text-white py-4 md:py-6 fixed top-0 left-0 right-0 z-10 px-4">
+      <Link
+        to="home"
+        spy={true}
+        smooth={true}
+        offset={-200}
+        duration={700}
+        className={linkStyles}
+        activeClass={activeLinkStyles}
+      >
         Home
-      </NavLink>
-      <NavLink to="/Projects" className={navLinkStyles}>
+      </Link>
+      <Link
+        to="projects"
+        spy={true}
+        smooth={true}
+        offset={-100}
+        duration={800}
+        className={linkStyles}
+        activeClass={activeLinkStyles}
+      >
         Projects
-      </NavLink>
-      <NavLink to="/Contact" className={navLinkStyles}>
+      </Link>
+      <Link
+        to="contact"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={700}
+        className={linkStyles}
+        activeClass={activeLinkStyles}
+      >
         Contact
-      </NavLink>
+      </Link>
     </div>
   );
 };
