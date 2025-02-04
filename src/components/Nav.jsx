@@ -11,7 +11,7 @@ const Nav = () => {
         spy={true}
         smooth={true}
         offset={-200}
-        duration={700}
+        duration={800}
         className={linkStyles}
         activeClass={activeLinkStyles}
       >
@@ -28,12 +28,25 @@ const Nav = () => {
       >
         Projects
       </Link>
+
+      <Link
+        to="about"
+        spy={true}
+        smooth={true}
+        offset={-100}
+        duration={800}
+        className={linkStyles}
+        activeClass={activeLinkStyles}
+      >
+        About
+      </Link>
+
       <Link
         to="contact"
         spy={true}
         smooth={true}
         offset={-100}
-        duration={700}
+        duration={800}
         className={linkStyles}
         activeClass={activeLinkStyles}
       >
