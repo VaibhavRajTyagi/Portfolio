@@ -6,10 +6,10 @@ const TimelineNode = ({ year, degree, institution, score, last }) => (
     <div className="flex flex-col items-center">
         <div className="w-80 bg-white dark:bg-black dark:border-gray-400 dark:hover:border-white rounded-lg shadow-lg p-4 border border-blue-200 hover:border-blue-400 transition-all duration-300">
             <div className="text-sm text-blue-500 font-semibold">{year}</div>
-            <h3 className="text-xl font-bold mt-2">{degree}</h3>
+            <h3 className="text-xl text-black dark:text-white font-bold mt-2">{degree}</h3>
             <div className="text-gray-400 mt-1">{institution}</div>
             <div className="mt-2 rounded-md p-2">
-                <span className="font-semibold">Score:</span> {score}
+                <span className="text-black dark:text-white font-semibold">Score:</span> {score}
             </div>
         </div>
 
@@ -40,13 +40,13 @@ const EducationTimeline = () => {
         {
             year: "2018-2019",
             degree: "Higher Secondary Education",
-            institution: "Kendriya Vidhyalaya No.2, Roorkee",
+            institution: "Kendriya Vidyalaya No.2, Roorkee",
             score: "88%",
         },
         {
             year: "2015-2016",
             degree: "Secondary Education",
-            institution: "Kendriya Vidhyalaya No.2, Roorkee",
+            institution: "Kendriya Vidyalaya No.2, Roorkee",
             score: "CGPA: 8.2/10",
         }
     ];

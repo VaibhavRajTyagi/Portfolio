@@ -22,7 +22,7 @@ function App() {
           <Contact />
         </section>
         <footer className="text-center bg-gray-400 py-1 md:py-2 text-sm md:text-base">
-          Made by Vaibhav Raj Tyagi.
+          Made with ❤️ by Vaibhav Raj Tyagi.
         </footer>
       </div>
     </>
