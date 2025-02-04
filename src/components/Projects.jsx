@@ -17,12 +17,7 @@ const cardContent = [
     description: "Description 1",
     image: "image1.jpg",
   },
-  {
-    title: "Project 4",
-    description: "Description 1",
-    image: "image1.jpg",
-  },
-
+  
 ];
 
 const Projects = () => {
