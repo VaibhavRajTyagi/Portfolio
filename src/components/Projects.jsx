@@ -11,11 +11,13 @@ const cardContent = [
     title: "Project 2",
     description: "Description 1",
     image: "image1.jpg",
+    link: "https://Google.com"
   },
   {
     title: "Project 3",
     description: "Description 1",
     image: "image1.jpg",
+    link: "https://Google.com"
   },
   
 ];

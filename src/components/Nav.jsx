@@ -32,7 +32,7 @@ const Nav = () => {
         to="contact"
         spy={true}
         smooth={true}
-        offset={-70}
+        offset={-100}
         duration={700}
         className={linkStyles}
         activeClass={activeLinkStyles}
