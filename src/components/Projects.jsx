@@ -1,9 +1,11 @@
+import weather_img from "../assets/images/weather_app_thumbnail.png"
 
 const cardContent = [
   {
-    title: "Project 1",
-    description: "Description 1",
-    image: "image1.jpg",
+    title: "Weather App",
+    description: "Made using vanilla JS, HTML and CSS. It follows modern design and is responsive for only mobile and desktop screens for now. The app showcases a simple and modern interface which shows weather details for any city.",
+    image: weather_img,
+    link: "https://weather-app-vanilla-stack.vercel.app/"
   },
   {
     title: "Project 2",
@@ -31,11 +33,17 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
         {cardContent.map((card, index) => (
-          <div key={index} className="card border border-white p-4 rounded-lg hover:scale-105 transition-transform duration-300">
-            <img src={card.image} alt={card.title} className="w-full h-48 object-cover rounded-md mb-4" />
+          <a 
+            key={index} 
+            href={card.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="card border border-white p-4 rounded-lg hover:scale-105 transition-transform duration-300"
+          >
+            <img src={card.image} alt={card.title} className="w-full h-64 object-fill rounded-md mb-4" />
             <h2 className="text-xl md:text-2xl font-semibold mb-2">{card.title}</h2>
             <p className="text-sm md:text-base text-gray-300">{card.description}</p>
-          </div>
+          </a>
         ))}
       </div>
     </div>
