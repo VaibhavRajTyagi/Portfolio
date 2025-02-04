@@ -21,7 +21,7 @@ function App() {
         <section id="contact">
           <Contact />
         </section>
-        <footer className="text-center bg-slate-500 py-2 md:py-4 text-sm md:text-base">
+        <footer className="text-center bg-gray-400 py-1 md:py-2 text-sm md:text-base">
           Made by Vaibhav Raj Tyagi.
         </footer>
       </div>

@@ -12,7 +12,7 @@ const Home = () => {
             Hello, I&apos;m{" "}
             <span className="text-blue-500">Vaibhav Raj Tyagi</span>.
           </h1>
-          <p className="text-base md:text-lg">I&apos;m a Full Stack Developer.</p>
+          <p className="text-base md:text-lg">A Full Stack Developer.</p>
         </div>
         <div className="ImageDiv border-4 border-dotted border-white overflow-hidden object-cover w-60 h-60 md:w-80 md:h-80 rounded-full">
           <img className="bg-[#141313] w-full h-full object-cover" src={profileImage} alt="PFP" />

@@ -4,7 +4,7 @@ import React from 'react';
 
 const TimelineNode = ({ year, degree, institution, score, last }) => (
     <div className="flex flex-col items-center">
-        <div className="w-80 bg-white dark:bg-black dark:border-gray-400 dark:hover:border-white rounded-lg shadow-lg p-6 border border-blue-200 hover:border-blue-400 transition-all duration-300">
+        <div className="w-80 bg-white dark:bg-black dark:border-gray-400 dark:hover:border-white rounded-lg shadow-lg p-4 border border-blue-200 hover:border-blue-400 transition-all duration-300">
             <div className="text-sm text-blue-500 font-semibold">{year}</div>
             <h3 className="text-xl font-bold mt-2">{degree}</h3>
             <div className="text-gray-400 mt-1">{institution}</div>
