@@ -8,8 +8,8 @@ const TimelineNode = ({ year, degree, institution, score, last }) => (
             <div className="text-sm text-blue-500 font-semibold">{year}</div>
             <h3 className="text-xl text-black dark:text-white font-bold mt-2">{degree}</h3>
             <div className="text-gray-400 mt-1">{institution}</div>
-            <div className="mt-2 rounded-md p-2">
-                <span className="text-black dark:text-white font-semibold">Score:</span> {score}
+            <div className="mt-2 rounded-md p-2 text-black dark:text-white">
+                <span className="font-semibold">Score:</span> {score}
             </div>
         </div>
 
