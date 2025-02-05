@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className="my-4 py-4 md:px-8">
       <div className="heading flex items-center justify-center">
-      <h1 className="dark:text-white text-4xl">Contact</h1>
+      <h1 className="dark:text-white text-4xl font-bold">Contact</h1>
       </div>
     <div className="flex flex-col justify-center items-center dark:bg-black dark:text-white p-4 md:p-7 space-y-4 md:space-y-6">
       <p className="text-center text-sm md:text-base px-4 max-w-md">

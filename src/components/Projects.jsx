@@ -25,7 +25,7 @@ const cardContent = [
 const Projects = () => {
   return (
     <div className="px-4 md:px-8">
-      <div className="title text-center text-3xl md:text-4xl font-bold mt-20 md:mt-40 mb-12 md:mb-20">
+      <div className="title text-center text-3xl md:text-4xl font-bold mt-40 md:mt-40 mb-12 md:mb-20">
         <h1 className="text-black dark:text-white">Projects</h1>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">

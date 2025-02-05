@@ -2,11 +2,11 @@ import profileImage from "../assets/images/anime-pfp.jpeg";
 import Contact_icons from "./Contact_icons";
 
 const Home = () => {
-  
+
 
   return (
     <>
-      <div className="landingDiv flex-grow h-full dark:bg-black dark:text-white flex flex-col md:flex-row justify-center items-center gap-8 md:gap-24 mt-10 md:mt-20 px-4">
+      <div className="landingDiv flex-grow h-full dark:bg-black dark:text-white flex flex-col md:flex-row justify-center items-center gap-20 md:gap-24 mt-24 md:mt-20 px-4">
         <div className="TextDiv flex flex-col justify-center items-center text-center md:text-left">
           <h1 className="text-2xl md:text-4xl font-bold">
             Hello, I&apos;m{" "}
@@ -19,8 +19,8 @@ const Home = () => {
         </div>
       </div>
 
-      <Contact_icons/>
-      
+      <Contact_icons />
+
     </>
   );
 };
