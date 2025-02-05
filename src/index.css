@@ -10,11 +10,3 @@
   font-family: "JetBrains Mono", sans-serif;
 }
 
-
-
-@media (prefers-color-scheme: dark) {
-  selection{
-    background-color: white;
-    color: black;
-  }
-}

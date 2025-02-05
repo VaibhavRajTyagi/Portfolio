@@ -6,14 +6,14 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const Nav = ({ toggleDarkMode, isDarkMode }) => {
-  const linkStyles = "cursor-pointer text-sm md:text-base text-gray-400 hover:text-black dark:hover:text-white transition-colors duration-300";
+  const linkStyles = "cursor-pointer text-sm md:text-base hover:text-black dark:hover:text-white transition-colors duration-300";
   const activeLinkStyles = "text-blue-500 dark:text-white";
 
   const buttonStyle = "rounded-full border border-black dark:border-gray-400 px-3 py-1 leading-none"
   const iconStyle = "text-sm text-black dark:text-white"
 
   return (
-    <div className="flex justify-center items-center gap-4 md:gap-24 dark:opacity-95 bg-white dark:bg-black py-3 md:py-6 fixed top-0 left-0 right-0 z-10 w-full">
+    <div className="flex justify-center items-center gap-4 md:gap-24 dark:opacity-95 text-gray-400 bg-white dark:bg-black py-3 md:py-6 fixed top-0 left-0 right-0 z-10 w-full">
       <Link
         to="home"
         spy={true}
