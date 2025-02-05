@@ -6,7 +6,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="landingDiv flex-grow h-full bg-black text-white flex flex-col md:flex-row justify-center items-center gap-8 md:gap-24 mt-10 md:mt-20 px-4">
+      <div className="landingDiv flex-grow h-full dark:bg-black dark:text-white flex flex-col md:flex-row justify-center items-center gap-8 md:gap-24 mt-10 md:mt-20 px-4">
         <div className="TextDiv flex flex-col justify-center items-center text-center md:text-left">
           <h1 className="text-2xl md:text-4xl font-bold">
             Hello, I&apos;m{" "}
@@ -14,8 +14,8 @@ const Home = () => {
           </h1>
           <p className="text-base md:text-lg">A Full Stack Developer.</p>
         </div>
-        <div className="ImageDiv border-4 border-dotted border-white overflow-hidden object-cover w-60 h-60 md:w-80 md:h-80 rounded-full">
-          <img className="bg-[#141313] w-full h-full object-cover" src={profileImage} alt="PFP" />
+        <div className="ImageDiv border-4 border-dotted border-black dark:border-white overflow-hidden object-cover w-60 h-60 md:w-80 md:h-80 rounded-full">
+          <img className="dark:bg-[#141313] w-full h-full object-cover" src={profileImage} alt="PFP" />
         </div>
       </div>
 

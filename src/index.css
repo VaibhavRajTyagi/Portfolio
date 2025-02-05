@@ -10,18 +10,11 @@
   font-family: "JetBrains Mono", sans-serif;
 }
 
-body{
-  background-color: #000000;
-  color: white;
-}
 
 
-*::selection{
-  background-color: white;
-  color: black;
-}
-
-.navItems:hover{
-  color: #7b7a7a;
-  cursor: pointer;
+@media (prefers-color-scheme: dark) {
+  selection{
+    background-color: white;
+    color: black;
+  }
 }
