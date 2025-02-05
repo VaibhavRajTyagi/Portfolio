@@ -22,7 +22,7 @@ const Contact_icons = () => {
             </button>
             <button
                 onClick={() =>
-                    window.open("https://mail.google.com", "_blank")
+                    window.open("mailto:vaibtyagi1610@gmail.com?subject=write letter", "_blank")
                 }
             >
                 <FontAwesomeIcon icon={faGoogle} className={iconStyles} />

@@ -66,7 +66,7 @@ const Nav = ({ toggleDarkMode, isDarkMode }) => {
         aria-label="Toggle dark mode"
         className={buttonStyle}
       >
-        {isDarkMode ? (<FontAwesomeIcon className={iconStyle} icon={faMoon} />):(<FontAwesomeIcon className={iconStyle} icon={faSun} />)}
+        {isDarkMode ? (<FontAwesomeIcon className={iconStyle} icon={faSun} />):(<FontAwesomeIcon className={iconStyle} icon={faMoon} />)}
       </button>
     </div>
   );
