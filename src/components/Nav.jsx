@@ -7,7 +7,7 @@ import {
 
 const Nav = ({ toggleDarkMode, isDarkMode }) => {
   const linkStyles = "cursor-pointer text-sm md:text-base hover:text-blue-500 dark:hover:text-white transition-colors duration-300";
-  const activeLinkStyles = "text-blue-500 dark:text-white";
+  const activeLinkStyles = "text-blue-500 border-b-4 border-blue-500  dark:text-white dark:border-b-4 dark:border-white";
 
   const buttonStyle = "rounded-full border border-black dark:border-gray-400 px-3 py-1 leading-none"
   const iconStyle = "text-sm text-black dark:text-white"
@@ -49,7 +49,7 @@ const Nav = ({ toggleDarkMode, isDarkMode }) => {
         About
       </Link>
 
-      <Link
+      {/* <Link
         to="contact"
         spy={true}
         smooth={true}
@@ -59,7 +59,7 @@ const Nav = ({ toggleDarkMode, isDarkMode }) => {
         activeClass={activeLinkStyles}
       >
         Contact
-      </Link>
+      </Link> */}
 
       <button
         onClick={toggleDarkMode}

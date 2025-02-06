@@ -6,9 +6,16 @@ import About from "./components/About";
 import { useState, useEffect } from "react";
 
 function App() {
-  const [DarkMode, setDarkMode] = useState(false);
+  // Initialize darkMode from localStorage or default to false
+  const [DarkMode, setDarkMode] = useState(() => {
+    const savedTheme = localStorage.getItem('theme');
+    return savedTheme === 'dark';
+  });
   
   useEffect(() => {
+    // Update localStorage whenever theme changes
+    localStorage.setItem('theme', DarkMode ? 'dark' : 'light');
+    
     if (DarkMode) {
       document.documentElement.classList.add('dark');
     } else {
@@ -16,7 +23,7 @@ function App() {
     }
   }, [DarkMode]);
 
-  const toggleDarkMode = () =>{
+  const toggleDarkMode = () => {
     setDarkMode(!DarkMode);
   }
 
@@ -32,9 +39,9 @@ function App() {
       <section id="about">
         <About />
       </section>
-      <section id="contact">
+      {/* <section id="contact">
         <Contact />
-      </section>
+      </section> */}
       <footer className="text-center bg-gray-400 py-1 md:py-2 text-sm md:text-base">
         Made with ❤️ by Vaibhav Raj Tyagi.
       </footer>
