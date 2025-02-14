@@ -1,4 +1,5 @@
 import weather_img from "../assets/images/weather_app_thumbnail.png"
+import reviewer_img from "../assets/images/CodeReviewer_thumbnail.png"
 
 const cardContent = [
   {
@@ -7,6 +8,12 @@ const cardContent = [
     image: weather_img,
     link: "https://weather-app-vanilla-stack.vercel.app/"
   },
+  {
+    title: "Ai Code Reviewer",
+    description: "A code reviewer powered by AI with a simple and modern UI. This code reviewer helps in building better coding practises and habits.",
+    image: reviewer_img,
+    link: "https://aicodereviewer-odi7.onrender.com/"
+  }
 ];
 
 const Projects = () => {
