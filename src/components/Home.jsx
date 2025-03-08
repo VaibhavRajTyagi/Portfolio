@@ -14,7 +14,7 @@ const Home = () => {
             <span className="text-blue-500">Vaibhav Raj Tyagi</span>.
           </h1>
           <p className="text-base md:text-lg">A Full Stack Developer.</p>
-          <a href={Resume} target="_blank" className="mt-10 py-2 px-4 hover:bg-gray-800 bg-[#181818] text-white dark:bg-white dark:text-black font-semibold rounded-3xl tracking-wider font-[geist]"><button>Resume.</button></a>
+          <a href={Resume} target="_blank" className="mt-10 py-2 px-4 hover:bg-gray-800 bg-naturalblack text-white dark:bg-white dark:text-black font-semibold rounded-3xl tracking-wider font-[geist]"><button>Resume.</button></a>
         </div>
         <div className="ImageDiv border-4 border-dotted border-black dark:border-white overflow-hidden object-cover w-60 h-60 md:w-68 md:h-68 lg:w-80 lg:h-80 rounded-full">
           <img className="dark:bg-[#141313] w-full h-full object-cover" src={profileImage} alt="PFP" />
