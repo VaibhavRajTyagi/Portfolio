@@ -1,12 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        geist: ["Geist Mono", "monospace"],
+      },
+      colors:{
+        naturalblack : '#181818',
+      }
+    },
   },
   plugins: [],
-  darkMode: 'class',
-}
+  darkMode: "class",
+};

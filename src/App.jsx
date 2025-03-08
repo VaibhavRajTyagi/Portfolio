@@ -1,19 +1,17 @@
 import Nav from "./components/Nav";
-import Contact from "./components/Contact";
+// import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
 import About from "./components/About";
 import { useState, useEffect } from "react";
 
 function App() {
-  // Initialize darkMode from localStorage or default to false
   const [DarkMode, setDarkMode] = useState(() => {
     const savedTheme = localStorage.getItem('theme');
     return savedTheme === 'dark';
   });
   
   useEffect(() => {
-    // Update localStorage whenever theme changes
     localStorage.setItem('theme', DarkMode ? 'dark' : 'light');
     
     if (DarkMode) {
@@ -42,7 +40,7 @@ function App() {
       {/* <section id="contact">
         <Contact />
       </section> */}
-      <footer className="text-center bg-gray-400 py-1 md:py-2 text-sm md:text-base">
+      <footer className="text-center bg-naturalblack text-white dark:text-black dark:bg-white py-1 md:py-1 text-sm md:text-base">
         Made with ❤️ by Vaibhav Raj Tyagi.
       </footer>
     </div>

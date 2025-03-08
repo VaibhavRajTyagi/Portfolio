@@ -1,4 +1,4 @@
-import React from 'react'
+
 import EducationTimeline from './EducationTimeline'
 
 const About = () => {
