@@ -8,7 +8,7 @@ export default {
       },
       colors:{
         naturalblack : '#181818',
-      }
+      },
     },
   },
   plugins: [],
