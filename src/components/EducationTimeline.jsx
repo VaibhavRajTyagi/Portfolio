@@ -64,10 +64,10 @@ function EducationTimeline() {
     <>
       <div className="education flex justify-center items-center text-center">
         <GraduationCap className="h-6 w-6 text-gray-400 mr-2" />
-        <h1 className="font-[monospace] text-xl text-center">Education</h1>
+        <h1 className="font-mono text-xl text-center">Education</h1>
       </div>
       <div className="details">
-        <div className="verticalpadding mt-8 mx-10 md:mx-56">
+        <div className="verticalpadding mt-8 mx-5 sm:mx-10 md:mx-56">
           {Education.map((edu, index) => {
             return <EducationCard key={index} {...edu} />;
           })}
