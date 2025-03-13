@@ -11,7 +11,7 @@ const Nav = ({ toggleDarkMode, isDarkMode }) => {
   const iconStyle = "text-sm text-black dark:text-white";
 
   return (
-    <div className="flex justify-center items-center gap-4 md:gap-24 dark:opacity-95 text-gray-400 bg-white dark:bg-black py-6 md:py-6 fixed top-0 left-0 right-0 z-10 w-full">
+    <div className="flex justify-center items-center gap-5 md:gap-24 dark:opacity-95 text-gray-400 bg-white dark:bg-black py-6 md:py-6 fixed top-0 left-0 right-0 z-10 w-full">
       <Link
         to="home"
         spy={true}
