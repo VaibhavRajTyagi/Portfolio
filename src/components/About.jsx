@@ -12,7 +12,7 @@ const About = () => {
           Hey, I&apos;m Vaibhav a 2024 Masters Of Computer Applications graduate
           from the College Of Engineering Roorkee. I&apos;m a beginner
           full-stack engineer, with particular proficiency in ReactJS and
-          front-end. I build and design vercel like minimalist and modern
+          front-end. I like building and designing monochromatic, minimalist and modern
           looking websites. I&apos;m still in the learning process and will
           continually keep upgrading my projects along with my knowledge and
           skills.
