@@ -40,7 +40,7 @@ function App() {
       {/* <section id="contact">
         <Contact />
       </section> */}
-      <footer className="text-center bg-naturalblack text-white dark:text-gray-400 dark:bg-naturalblack py-1 md:py-1 text-sm md:text-base font-geist">
+      <footer className="text-center bg-naturalblack text-white dark:text-gray-400 dark:bg-naturalblack py-1 md:py-1 text-sm md:text-lg md:tracking-wider font-oswald">
         Made with ❤️ by Vaibhav Raj Tyagi.
       </footer>
     </div>

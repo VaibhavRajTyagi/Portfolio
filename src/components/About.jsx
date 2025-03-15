@@ -4,7 +4,7 @@ import EducationTimeline from "./EducationTimeline";
 const About = () => {
   return (
     <div className="mt-40 mb-12 text-black dark:text-white">
-      <div className="heading  text-4xl text-center mx-4 my-12 md:mx-8 font-bold">
+      <div className="heading  text-4xl text-center mx-4 my-12 md:mx-8 font-bold font-oswald">
         <h1>About</h1>
       </div>
       <div className="disc m-4 px-4 text-center">

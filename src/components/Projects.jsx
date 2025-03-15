@@ -20,7 +20,7 @@ const Projects = () => {
   return (
     <div className="px-4 md:px-8">
       <div className="title text-center text-3xl md:text-4xl font-bold mt-40 md:mt-40 mb-12 md:mb-20">
-        <h1 className="text-black dark:text-white">Projects</h1>
+        <h1 className="text-black dark:text-white font-oswald">Projects</h1>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
         {cardContent.map((card, index) => (
@@ -32,8 +32,8 @@ const Projects = () => {
             className="card border border-gray-400 dark:border-white p-4 rounded-lg hover:scale-105 transition-transform duration-300"
           >
             <img src={card.image} alt={card.title} className="w-full h-64 object-fill rounded-md mb-4" />
-            <h2 className="text-xl md:text-2xl text-blue-500 font-semibold mb-2">{card.title}</h2>
-            <p className="text-sm md:text-base dark:text-gray-300 font-mono">{card.description}</p>
+            <h2 className="text-xl md:text-2xl text-white font-semibold mb-2 font-geist">{card.title}</h2>
+            <p className="text-sm md:text-base dark:text-gray-300 font-playfair">{card.description}</p>
           </a>
         ))}
       </div>

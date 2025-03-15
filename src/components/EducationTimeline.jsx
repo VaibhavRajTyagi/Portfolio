@@ -35,16 +35,16 @@ const EducationCard = ({ year, degree, institution, score }) => {
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 sm:gap-4">
         <div className="space-y-1.5">
           <div className="flex items-center gap-3">
-            <h3 className="text-sm font-medium text-blue-500 dark:text-white/90">{degree}</h3>
-            <span className="inline-flex items-center rounded-full bg-white/[0.05] px-2 py-0.5 text-xs font-medium dark:text-white/70">
+            <h3 className="text-sm font-medium font-geist text-blue-500 dark:text-white/90">{degree}</h3>
+            <span className="inline-flex items-center rounded-full bg-gray-900 px-2 py-0.5 text-xs font-medium dark:text-white/70 font-playfair">
               {score}
             </span>
           </div>
-          <p className="text-sm dark:text-white/50">
+          <p className="text-sm font-playfair dark:text-white/50">
             {institution}
           </p>
         </div>
-        <p className="text-xs font-medium dark:text-white/40">
+        <p className="text-sm font-medium dark:text-white/40 font-playfair">
           {year}
         </p>
       </div>
@@ -64,7 +64,7 @@ function EducationTimeline() {
     <>
       <div className="education flex justify-center items-center text-center">
         <GraduationCap className="h-6 w-6 text-gray-400 mr-2" />
-        <h1 className="font-mono text-xl text-center">Education</h1>
+        <h1 className="font-oswald text-xl text-center">Education</h1>
       </div>
       <div className="details">
         <div className="verticalpadding mt-8 mx-5 sm:mx-10 md:mx-56">

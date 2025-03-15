@@ -5,6 +5,9 @@ export default {
     extend: {
       fontFamily: {
         geist: ["Geist Mono", "monospace"],
+        playfair:["Playfair", "monospace"],
+        oswald:["Oswald", "monospace"],
+        merriweather: ["merriweather", "serif"],
       },
       colors:{
         naturalblack : '#181818',

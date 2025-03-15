@@ -1,29 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Oswald:wght@200..700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "JetBrains Mono", sans-serif;
 }
 
 @keyframes slide {
-  0% {
-    transform: translateX(100%);
+  from{
+    transform: translateX(0);
   }
-  100% {
-    transform: translateX(-100%);
+  to {
+    transform: translateX(-50%);
   }
 }
 
-.animate-slide {
-  display: flex;
-  animation: slide 20s linear infinite;
+.skillicons{
+  animation: slide 15s linear infinite;
 }
-
-/* .skillicons svg{
-  min-height: 40px;
-  min-width: 40px;
-} */

@@ -12,8 +12,16 @@ const iconStyle = "min-w-9 md:min-w-12 min-h-9 md:min-h-12 mx-4 md:mx-8";
 
 const SkillIcons = () => {
   return (
-    <div className="skills mt-16 md:mx-20 overflow-hidden px-2 md:px-10">
-      <div className="skillicons flex items-center animate-slide min-w">
+    <div className="skills mt-16 mx-auto overflow-hidden relative w-full whitespace-nowrap">
+      <div className="skillicons flex">
+        <FontAwesomeIcon className={iconStyle} icon={faHtml5} />
+        <FontAwesomeIcon className={iconStyle} icon={faCss} />
+        <FontAwesomeIcon className={iconStyle} icon={faJs} />
+        <FontAwesomeIcon className={iconStyle} icon={faReact} />
+        <FontAwesomeIcon className={iconStyle} icon={faNode} />
+        <SiMongodb className={iconStyle} />
+        <SiExpress className={iconStyle} />
+        <SiTailwindcss className={iconStyle} />
         <FontAwesomeIcon className={iconStyle} icon={faHtml5} />
         <FontAwesomeIcon className={iconStyle} icon={faCss} />
         <FontAwesomeIcon className={iconStyle} icon={faJs} />
