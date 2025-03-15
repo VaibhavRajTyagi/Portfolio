@@ -31,12 +31,12 @@ const Education = [
 
 const EducationCard = ({ year, degree, institution, score }) => {
   return (
-    <div className="edu-div relative px-4 py-3 -mx-4 md:mx-10 md:mr-20 rounded-xl transition-colors duration-300 hover:bg-white/[0.02]">
+    <div className="edu-div relative px-4 py-3 -mx-4 md:mr-10 rounded-xl transition-colors duration-300 hover:bg-white/[0.02]">
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 sm:gap-4">
         <div className="space-y-1.5">
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2 md:gap-3">
             <h3 className="text-sm font-medium font-geist text-blue-500 dark:text-white/90">{degree}</h3>
-            <span className="inline-flex items-center rounded-full bg-gray-900 px-2 py-0.5 text-xs font-medium dark:text-white/70 font-playfair">
+            <span className="inline-flex items-center rounded-full bg-gray-100 dark:bg-gray-900 px-2 py-0.5 text-xs font-medium dark:text-white/70 font-playfair">
               {score}
             </span>
           </div>
@@ -44,7 +44,7 @@ const EducationCard = ({ year, degree, institution, score }) => {
             {institution}
           </p>
         </div>
-        <p className="text-xs md:text-sm font-medium dark:text-white/40 font-playfair">
+        <p className="text-xs md:text-base font-medium dark:text-white/40 font-playfair">
           {year}
         </p>
       </div>
@@ -66,7 +66,7 @@ function EducationTimeline() {
         <GraduationCap className="h-6 w-6 text-gray-400 mr-2" />
         <h1 className="font-oswald text-xl text-center">Education</h1>
       </div>
-      <div className="details">
+      <div className="details w-full">
         <div className="verticalpadding mt-8 mx-5 sm:mx-10 md:mx-56">
           {Education.map((edu, index) => {
             return <EducationCard key={index} {...edu} />;

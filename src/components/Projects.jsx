@@ -33,7 +33,7 @@ const Projects = () => {
           >
             <img src={card.image} alt={card.title} className="w-full h-64 object-fill rounded-md mb-4" />
             <h2 className="text-xl md:text-2xl text-white font-semibold mb-2 font-geist">{card.title}</h2>
-            <p className="text-sm md:text-base dark:text-gray-300 font-playfair">{card.description}</p>
+            <p className="text-sm md:text-base dark:text-gray-300 font-playfair tracking-wide">{card.description}</p>
           </a>
         ))}
       </div>
