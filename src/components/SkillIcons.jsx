@@ -8,7 +8,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { SiExpress, SiMongodb, SiTailwindcss } from "react-icons/si";
 
-const iconStyle = "min-w-9 md:min-w-12 min-h-9 md:min-h-12 mx-4 md:mx-8";
+const iconStyle = "min-w-10 md:min-w-12 min-h-10 md:min-h-12 mx-4 md:mx-8";
 
 const SkillIcons = () => {
   return (
