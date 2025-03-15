@@ -35,16 +35,18 @@ const EducationCard = ({ year, degree, institution, score }) => {
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 sm:gap-4">
         <div className="space-y-1.5">
           <div className="flex items-center gap-2 md:gap-3">
-            <h3 className="text-sm font-medium font-geist text-blue-500 dark:text-white/90">{degree}</h3>
-            <span className="inline-flex items-center rounded-full bg-gray-100 dark:bg-gray-900 px-2 py-0.5 text-xs font-medium dark:text-white/70 font-playfair">
+            <h3 className="text-sm md:text-base font-medium font-geist text-blue-500 dark:text-white/90">
+              {degree}
+            </h3>
+            <span className="inline-flex items-center rounded-full bg-gray-100 dark:bg-gray-900 px-2 py-0.5 text-xs md:text-sm font-medium dark:text-white/70 font-playfair">
               {score}
             </span>
           </div>
-          <p className="text-sm font-playfair dark:text-white/50">
+          <p className="text-sm md:text-base font-playfair dark:text-white/50">
             {institution}
           </p>
         </div>
-        <p className="text-xs md:text-base font-medium dark:text-white/40 font-playfair">
+        <p className="text-sm md:text-base font-medium dark:text-white/40 font-playfair">
           {year}
         </p>
       </div>
