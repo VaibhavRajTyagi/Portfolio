@@ -44,7 +44,7 @@ const EducationCard = ({ year, degree, institution, score }) => {
             {institution}
           </p>
         </div>
-        <p className="text-sm font-medium dark:text-white/40 font-playfair">
+        <p className="text-xs md:text-sm font-medium dark:text-white/40 font-playfair">
           {year}
         </p>
       </div>
