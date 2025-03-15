@@ -7,7 +7,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="landingDiv flex-grow h-full dark:bg-black dark:text-white flex flex-col md:flex-row justify-center items-center gap-20 md:gap-16 lg:gap-24 mt-24 md:mt-20 px-4">
+      <div className="landingDiv flex-grow h-full dark:bg-black dark:text-white flex flex-col md:flex-row justify-center items-center gap-20 md:gap-16 lg:gap-24 mt-20 md:mt-20 px-4">
         <div className="TextDiv flex flex-col justify-center items-center text-center lg:text-left font-geist">
           <h1 className="text-2xl md:text-2xl lg:text-4xl font-bold">
             Hello, I&apos;m{" "}
