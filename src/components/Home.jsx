@@ -11,10 +11,10 @@ const Home = () => {
         <div className="TextDiv flex flex-col justify-center items-center text-center lg:text-left font-geist">
           <h1 className="text-2xl md:text-2xl lg:text-4xl font-bold">
             Hello, I&apos;m{" "}
-            <span className="text-blue-500">Vaibhav Raj Tyagi</span>.
+            <span className="text-blue-500">Vaibhav Raj Tyagi</span>
           </h1>
           <p className="text-base md:text-lg font-geist">A Full Stack Developer.</p>
-          <a href={Resume} target="_blank" className="mt-10 py-2 px-4 hover:bg-gray-700 bg-naturalblack text-white dark:bg-white dark:text-black dark:hover:bg-gray-200 font-semibold rounded-3xl tracking-wider font-oswald"><button>Resume.</button></a>
+          <a href={Resume} target="_blank" className="mt-10 py-2 px-4 hover:bg-gray-700 bg-naturalblack text-white dark:bg-white dark:text-black dark:hover:bg-gray-200 font-semibold rounded-3xl tracking-wider font-oswald"><button>Resume</button></a>
         </div>
         <div className="ImageDiv border-4 border-dotted border-black dark:border-white overflow-hidden object-cover w-60 h-60 md:w-68 md:h-68 lg:w-80 lg:h-80 rounded-full">
           <img className="dark:bg-[#141313] w-full h-full object-cover" src={profileImage} alt="PFP" />

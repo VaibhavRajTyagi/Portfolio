@@ -28,9 +28,7 @@ const iconStyle = "min-w-12 min-h-12 mx-4 md:mx-8";
 const SkillIcons = () => {
   return (
     <div className="skills mt-16 mx-4 md:mx-auto overflow-hidden relative max-w-full">
-      {/* Left gradient */}
       <div className="absolute top-0 left-0 w-32 h-full bg-gradient-to-r from-white via-white/70 to-transparent dark:from-black dark:via-black/70 z-10"></div>
-      {/* Right gradient */}
       <div className="absolute top-0 right-0 w-32 h-full bg-gradient-to-l from-white via-white/70 to-transparent dark:from-black dark:via-black/70 z-10"></div>
       
       <div className="skillicons inline-flex">

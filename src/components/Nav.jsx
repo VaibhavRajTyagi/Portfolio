@@ -1,17 +1,18 @@
 import { Link } from "react-scroll";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
 import PropTypes from "prop-types";
+import { PiMoon, PiSun } from "react-icons/pi";
 
 const Nav = ({ toggleDarkMode, isDarkMode }) => {
-  const linkStyles = "cursor-pointer text-sm md:text-base hover:text-blue-500 dark:hover:text-white transition-colors duration-300 border-b-4 border-transparent font-merriweather";
-  const activeLinkStyles = "!text-blue-500 !border-b-4 !border-blue-500 dark:!text-white dark:!border-white";
+  const linkStyles =
+    "cursor-pointer text-base md:text-lg hover:text-blue-500 dark:hover:text-white transition-colors duration-300 border-b-4 border-transparent font-oswald";
+  const activeLinkStyles =
+    "!text-blue-500 !border-b-4 !border-blue-500 dark:!text-white dark:!border-white";
 
-  const buttonStyle = "rounded-full border border-black dark:border-gray-400 px-3 py-1 leading-none";
-  const iconStyle = "text-sm text-black dark:text-white";
+  const buttonStyle ="rounded-full border border-black dark:border-gray-400 px-3 py-1";
+  const iconStyle = "min-w-3 min-h-3 text-black dark:text-white";
 
   return (
-    <div className="flex justify-center items-center gap-10 md:gap-24 dark:opacity-95 text-gray-400 bg-white dark:bg-black py-6 md:py-6 fixed top-0 left-0 right-0 z-10 w-full">
+    <div className="flex justify-center items-center gap-10 md:gap-24 dark:opacity-95 text-gray-400 bg-white dark:bg-black py-6 md:py-5 fixed top-0 left-0 right-0 z-10 w-full">
       <Link
         to="home"
         spy={true}
@@ -27,7 +28,7 @@ const Nav = ({ toggleDarkMode, isDarkMode }) => {
         to="projects"
         spy={true}
         smooth={true}
-        offset={-100}
+        offset={-105}
         duration={800}
         className={linkStyles}
         activeClass={activeLinkStyles}
@@ -47,24 +48,16 @@ const Nav = ({ toggleDarkMode, isDarkMode }) => {
         About
       </Link>
 
-      {/* <Link
-        to="contact"
-        spy={true}
-        smooth={true}
-        offset={-100}
-        duration={800}
-        className={linkStyles}
-        activeClass={activeLinkStyles}
-      >
-        Contact
-      </Link> */}
-
       <button
         onClick={toggleDarkMode}
         aria-label="Toggle dark mode"
         className={buttonStyle}
       >
-        {isDarkMode ? (<FontAwesomeIcon className={iconStyle} icon={faSun} />) : (<FontAwesomeIcon className={iconStyle} icon={faMoon} />)}
+        {isDarkMode ? (
+          <PiSun className={iconStyle} />
+        ) : (
+          <PiMoon className={iconStyle} />
+        )}
       </button>
     </div>
   );

@@ -38,7 +38,7 @@ const EducationCard = ({ year, degree, institution, score }) => {
             <h3 className="text-sm md:text-base font-medium font-geist text-blue-500 dark:text-white/90">
               {degree}
             </h3>
-            <span className="inline-flex items-center rounded-full bg-gray-100 dark:bg-gray-900 px-2 py-0.5 text-xs md:text-sm font-medium dark:text-white/70 font-playfair">
+            <span className="inline-flex items-center rounded-full bg-gray-100 dark:bg-gray-900 px-2 py-0.5 text-xs md:text-sm font-medium dark:text-white/70 font-playfair invisible md:visible">
               {score}
             </span>
           </div>
