@@ -18,7 +18,7 @@ const About = () => {
           skills.
         </p>
       </div>
-      <div className="education w-full dark:bg-black flex justify-center mt-20">
+      <div className="education w-full dark:bg-black flex justify-center mt-12">
         <div className="section-padding w-full mx-40">
           <EducationTimeline />
         </div>
