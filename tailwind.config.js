@@ -12,6 +12,12 @@ export default {
       colors:{
         naturalblack : '#181818',
       },
+      backgroundImage:{
+        'dots-pattern': "radial-gradient(circle, #F1EFEC 1px, transparent 1px)",
+      },
+      backgroundSize:{
+        'dot': '10px 10px',
+      }
     },
   },
   plugins: [],

@@ -7,7 +7,7 @@ import {
 
 
 const Contact_icons = () => {
-    const iconStyles = "text-gray-400 text-4xl dark:hover:text-white hover:text-black";
+    const iconStyles = "text-gray-400 text-4xl dark:hover:text-white hover:text-black hover:scale-110 duration-300";
     return (
         <div className="socials flex justify-center items-center gap-6 md:gap-8 mt-20 md:mt-20 lg:mt-16 mb-12 md:mb-20">
             <button
