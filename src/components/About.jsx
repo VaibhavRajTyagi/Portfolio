@@ -1,5 +1,5 @@
 import EducationTimeline from "./EducationTimeline";
-import Experience from "./Experience";
+// import Experience from "./Experience";
 
 
 const About = () => {
