@@ -8,11 +8,11 @@ const Nav = ({ toggleDarkMode, isDarkMode }) => {
   const activeLinkStyles =
     "!text-blue-500 !border-b-4 !border-blue-500 dark:!text-white dark:!border-white";
 
-  const buttonStyle = "rounded-lg hover:bg-gray-200 dark:hover:bg-gray-800 p-2";
+  const buttonStyle = "rounded-full hover:bg-gray-200 dark:hover:bg-gray-800 p-1 md:p-3";
   const iconStyle = "min-w-5 min-h-5 text-black dark:text-white";
 
   return (
-    <div className="flex justify-center items-center gap-10 md:gap-24 dark:opacity-95 text-gray-400 bg-white/80 dark:bg-black/90 py-6 md:py-5 fixed top-0 left-0 right-0 z-10 w-full backdrop-blur">
+    <div className="flex justify-center items-center gap-10 md:gap-24 dark:opacity-95 text-gray-400 bg-white/80 dark:bg-black/90 py-3 md:py-3 px-6 md:px-8 fixed top-0 left-1/2 transform -translate-x-1/2 z-10 backdrop-blur border border-gray-200 dark:border-gray-800 rounded-full mt-4 ">
       <Link
         to="home"
         spy={true}
